@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.shalimar-regular {
+  font-family: "Shalimar", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.antonio {
+  font-family: "Antonio", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: #e3ddef;
+  font-family: "Shalimar";
+  font-size: 4rem;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.fonts,
+.couleurs {
+  text-align: center;
+  width: 15em;
+  height: 14em;
+  padding-top: 1rem;
+  background-color: #dedce0;
+  align-items: center;
+  margin: 5rem;
+  border-radius: 5%;
+  font-size: 2rem;
+}
+
+.couleurs {
+  display: flex;
+  flex-direction: column;
+}
+
+.wireframe {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+.wireframe-title {
+  text-align: center;
+  font-size: 3rem;
+}
+
+h1,
+h2 {
+  font-size: 3rem;
+  padding-bottom: 2rem;
+}
+
+.firstfont {
+  color: black;
+  font-family: "shalimar";
+  font-size: 4rem;
+}
+
+.secondfont {
+  color: black;
+  font-family: "Antonio";
+  font-size: 2rem;
+}
+
+p {
+  color: gray;
+  padding-top: 1rem;
+  font-size: 1.5rem;
+}
+
+.lavender {
+  background-color: #e3ddef;
+}
+
+.dark-purple {
+  color: white;
+  background-color: #1f0d24;
+}
+
+.slate-gray {
+  color: white;
+  background-color: #6f7691;
+}
+
+.wisteria {
+  color: white;
+  background-color: #b896ca;
+}
+
+.wireframe {
+  display: flex;
+}
+
+.lavender,
+.dark-purple,
+.slate-gray,
+.wisteria {
+  margin: 0.3rem;
+  text-align: center;
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+  width: 15rem;
+  border: thick double black;
+}
